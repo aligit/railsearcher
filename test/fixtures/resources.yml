@@ -1,23 +1,23 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  port: 1
-  protocol: MyString
-  hardware: MyString
-  hostname: MyString
-  type: 
-  name: MyString
-  path: MyString
-  ip: MyString
-  node_id: MyString
+  port: 8111
+  protocol: coap
+  hardware: telosb
+  hostname: node_2.unige
+  type: actuator
+  name: bulb
+  path: dev0
+  ip: 129.194.69.241
+  node_id: C1S2A1
 
 two:
-  port: 1
-  protocol: MyString
-  hardware: MyString
-  hostname: MyString
-  type: 
-  name: MyString
-  path: MyString
-  ip: MyString
-  node_id: MyString
+  port: 8112
+  protocol: http
+  hardware: telosb
+  hostname: node_1.unige
+  type: sensor
+  name: alarm
+  path: dev0
+  ip: 129.194.69.241
+  node_id: C3S7A1-gpio-dout
