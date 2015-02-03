@@ -1,5 +1,5 @@
-# railsearcher
-The app will search ideally from linkedin the PERSONs who have
-Ruby-On-Rails as one of their skills and who live around Geneva. If not
-able to search through LinkedIn api, it will use fake Persons inside a
-local DB.
+# Railsearcher
+The app will provide the list of available smart devices in the building
+of university of Geneva. These resources are part of Geneva's Testbed
+infrastructure which is itself part of the [IoT Lab][http://www.iotlab.eu/]
+european project consertium.
