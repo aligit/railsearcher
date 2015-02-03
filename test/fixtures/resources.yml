@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  port: 1
+  protocol: MyString
+  hardware: MyString
+  hostname: MyString
+  type: 
+  name: MyString
+  path: MyString
+  ip: MyString
+  node_id: MyString
+
+two:
+  port: 1
+  protocol: MyString
+  hardware: MyString
+  hostname: MyString
+  type: 
+  name: MyString
+  path: MyString
+  ip: MyString
+  node_id: MyString

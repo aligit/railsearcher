@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Port:</strong>
+  <%= @resource.port %>
+</p>
+
+<p>
+  <strong>Protocol:</strong>
+  <%= @resource.protocol %>
+</p>
+
+<p>
+  <strong>Hardware:</strong>
+  <%= @resource.hardware %>
+</p>
+
+<p>
+  <strong>Hostname:</strong>
+  <%= @resource.hostname %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @resource.type %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @resource.name %>
+</p>
+
+<p>
+  <strong>Path:</strong>
+  <%= @resource.path %>
+</p>
+
+<p>
+  <strong>Ip:</strong>
+  <%= @resource.ip %>
+</p>
+
+<p>
+  <strong>Node:</strong>
+  <%= @resource.node_id %>
+</p>
+
+<%= link_to 'Edit', edit_resource_path(@resource) %> |
+<%= link_to 'Back', resources_path %>
