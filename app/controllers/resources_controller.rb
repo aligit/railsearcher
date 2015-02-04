@@ -68,7 +68,6 @@ class ResourcesController < ApplicationController
 
   def getnodes
     @nodes = Resource.all
-
     respond_with(@nodes) do |format|
       format.json { render :json => @nodes.as_json }
     end
