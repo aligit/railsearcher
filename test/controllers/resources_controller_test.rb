@@ -3,12 +3,20 @@ require 'test_helper'
 class ResourcesControllerTest < ActionController::TestCase
   setup do
     @resource = resources(:one)
+    @request.headers['Accept'] = Mime::JSON
+    @request.headers['Content-Type'] = Mime::JSON.to_s
   end
 
   test "should get index" do
     get :index
     assert_response :success
     assert_not_nil assigns(:resources)
+  end
+
+  test "should get getnodes" do
+    get :getnodes, :format => "json"
+    assert_response :success
+    # assert_not_nil assigns(:resources)
   end
 
   test "should get new" do
