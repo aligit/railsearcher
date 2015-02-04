@@ -13,4 +13,8 @@ class ResourceTest < ActiveSupport::TestCase
     resource = Resource.new
     assert_not resource.save, "The new resource with the provided hostname was saved"
   end
+  test "should not return lightnodes" do
+    resource = Resource.new
+    assert resource.lightnodes
+  end
 end
