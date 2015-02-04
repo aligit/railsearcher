@@ -1,4 +1,5 @@
 class ResourcesController < ApplicationController
+  respond_to :json
   before_action :set_resource, only: [:show, :edit, :update, :destroy]
 
   # GET /resources
@@ -62,6 +63,14 @@ class ResourcesController < ApplicationController
     respond_to do |format|
       format.html { redirect_to resources_url, notice: 'Resource was successfully destroyed.' }
       format.json { head :no_content }
+    end
+  end
+
+  def getnodes
+    @nodes = Resource.all
+
+    respond_with(@nodes) do |format|
+      format.json { render :json => @nodes.as_json }
     end
   end
 
