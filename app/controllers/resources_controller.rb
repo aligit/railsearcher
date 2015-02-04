@@ -73,6 +73,22 @@ class ResourcesController < ApplicationController
     end
   end
 
+  def getlightnodes
+    nodes = Resource.new
+    @lightnodes = nodes.lightnodes
+    respond_with(@lightnodes) do |format|
+      format.json { render :json => @lightnodes.as_json }
+    end
+  end
+
+  def gettemperaturenodes
+    nodes = Resource.new
+    @temperaturenodes = nodes.temperaturenodes
+    respond_with(@temperaturenodes) do |format|
+      format.json { render :json => @temperaturenodes.as_json }
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_resource

@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   resources :resources do
     collection do
       get 'getnodes'
+      get 'getlightnodes'
+      get 'gettemperaturenodes'
     end
   end
 

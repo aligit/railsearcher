@@ -18,14 +18,17 @@ class ResourcesControllerTest < ActionController::TestCase
     @request.headers['Content-Type'] = Mime::JSON.to_s
     get :getnodes, :format => "json"
     assert_response :success
-    # assert_not_nil assigns(:resources)
   end
 
-  # test "should get getlightnodes" do
-  #   get :getnodes, :format => "json"
-  #   assert_response :success
-  #   # assert_not_nil assigns(:resources)
-  # end
+  test "should get getlightnodes" do
+    get :getlightnodes, :format => "json"
+    assert_response :success
+  end
+
+  test "should get gettemperaturenodes" do
+    get :gettemperaturenodes, :format => "json"
+    assert_response :success
+  end
 
   test "should get new" do
     get :new
