@@ -5,7 +5,7 @@ one:
   protocol: coap
   hardware: telosb
   hostname: node_2.unige
-  type: actuator
+  type_resource: actuator
   name: bulb
   path: dev0
   ip: 129.194.69.241
@@ -16,7 +16,7 @@ two:
   protocol: http
   hardware: telosb
   hostname: node_1.unige
-  type: sensor
+  type_resource: sensor
   name: alarm
   path: dev0
   ip: 129.194.69.241
