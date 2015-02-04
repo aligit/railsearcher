@@ -5,6 +5,10 @@ class ResourcesController < ApplicationController
   # GET /resources.json
   def index
     @resources = Resource.all
+    # respond_to do |format|
+    #   format.html
+    #   format.json {render json: @resources}
+    # end
   end
 
   # GET /resources/1
