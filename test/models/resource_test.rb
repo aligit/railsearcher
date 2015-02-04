@@ -15,6 +15,10 @@ class ResourceTest < ActiveSupport::TestCase
   end
   test "should not return lightnodes" do
     resource = Resource.new
-    assert resource.lightnodes
+    assert_not_nil resource.lightnodes
+  end
+  test "should not return temperaturenodes" do
+    resource = Resource.new
+    assert_not_nil resource.temperaturenodes
   end
 end

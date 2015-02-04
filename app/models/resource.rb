@@ -5,4 +5,7 @@ class Resource < ActiveRecord::Base
   def lightnodes
     Resource.where(:name => 'light')
   end
+  def temperaturenodes
+    Resource.where(:name => 'temperatur')
+  end
 end
