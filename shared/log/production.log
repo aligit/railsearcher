@@ -1,0 +1,21 @@
+I, [2015-02-05T22:36:47.673641 #31731]  INFO -- : Started GET "/" for 185.10.224.66 at 2015-02-05 22:36:47 +0100
+I, [2015-02-05T22:36:47.732319 #31731]  INFO -- : Processing by ResourcesController#index as HTML
+E, [2015-02-05T22:36:47.749092 #31731] ERROR -- : Mysql2::Error: Table 'railsearcher_production.resources' doesn't exist: SELECT `resources`.* FROM `resources`
+I, [2015-02-05T22:36:47.749649 #31731]  INFO -- :   Rendered resources/index.html.erb within layouts/application (7.7ms)
+I, [2015-02-05T22:36:47.749791 #31731]  INFO -- : Completed 500 Internal Server Error in 17ms
+F, [2015-02-05T22:36:47.752875 #31731] FATAL -- : 
+ActionView::Template::Error (Mysql2::Error: Table 'railsearcher_production.resources' doesn't exist: SELECT `resources`.* FROM `resources`):
+    17:   </thead>
+    18: 
+    19:   <tbody>
+    20:     <% @resources.each do |resource| %>
+    21:       <tr>
+    22:         <td><%= resource.port %></td>
+    23:         <td><%= resource.protocol %></td>
+  app/views/resources/index.html.erb:20:in `_app_views_resources_index_html_erb__3029411015896192030_19108720'
+
+
+I, [2015-02-05T22:45:44.521612 #32258]  INFO -- : Started GET "/" for 185.10.224.66 at 2015-02-05 22:45:44 +0100
+I, [2015-02-05T22:45:44.532544 #32258]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-05T22:45:44.555918 #32258]  INFO -- :   Rendered resources/index.html.erb within layouts/application (14.5ms)
+I, [2015-02-05T22:45:44.557279 #32258]  INFO -- : Completed 200 OK in 25ms (Views: 16.2ms | ActiveRecord: 1.0ms)
