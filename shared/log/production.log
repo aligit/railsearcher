@@ -27,3 +27,34 @@ I, [2015-02-05T23:11:34.175822 #926]  INFO -- : Started GET "/" for 185.10.224.6
 I, [2015-02-05T23:11:34.176629 #926]  INFO -- : Processing by ResourcesController#index as HTML
 I, [2015-02-05T23:11:34.180147 #926]  INFO -- :   Rendered resources/index.html.erb within layouts/application (2.5ms)
 I, [2015-02-05T23:11:34.180620 #926]  INFO -- : Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms)
+I, [2015-02-06T00:23:12.304865 #6282]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:23:12 +0100
+I, [2015-02-06T00:23:12.315139 #6282]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:23:12.338101 #6282]  INFO -- :   Rendered resources/index.html.erb within layouts/application (14.1ms)
+I, [2015-02-06T00:23:12.339390 #6282]  INFO -- : Completed 200 OK in 24ms (Views: 16.1ms | ActiveRecord: 1.0ms)
+I, [2015-02-06T00:25:24.915406 #6282]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:25:24 +0100
+I, [2015-02-06T00:25:24.916304 #6282]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:25:24.920229 #6282]  INFO -- :   Rendered resources/index.html.erb within layouts/application (3.1ms)
+I, [2015-02-06T00:25:24.920719 #6282]  INFO -- : Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.1ms)
+I, [2015-02-06T00:35:41.927156 #8396]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:35:41 +0100
+I, [2015-02-06T00:35:41.937623 #8396]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:35:41.968893 #8396]  INFO -- :   Rendered resources/index.html.erb within layouts/application (14.8ms)
+I, [2015-02-06T00:35:41.970292 #8396]  INFO -- : Completed 200 OK in 32ms (Views: 24.4ms | ActiveRecord: 1.0ms)
+I, [2015-02-06T00:36:12.751896 #8396]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:36:12 +0100
+I, [2015-02-06T00:36:12.752733 #8396]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:36:12.757183 #8396]  INFO -- :   Rendered resources/index.html.erb within layouts/application (3.6ms)
+I, [2015-02-06T00:36:12.757655 #8396]  INFO -- : Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.1ms)
+I, [2015-02-06T00:36:14.390911 #8396]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:36:14 +0100
+I, [2015-02-06T00:36:14.391676 #8396]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:36:14.395317 #8396]  INFO -- :   Rendered resources/index.html.erb within layouts/application (2.8ms)
+I, [2015-02-06T00:36:14.395823 #8396]  INFO -- : Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+I, [2015-02-06T00:43:12.953260 #10358]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:43:12 +0100
+I, [2015-02-06T00:43:12.976071 #10358]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:43:13.000645 #10358]  INFO -- :   Rendered resources/index.html.erb within layouts/application (14.1ms)
+I, [2015-02-06T00:43:13.001979 #10358]  INFO -- : Completed 200 OK in 26ms (Views: 17.8ms | ActiveRecord: 1.0ms)
+I, [2015-02-06T00:48:05.928542 #10721]  INFO -- : Started GET "/" for 129.194.69.241 at 2015-02-06 00:48:05 +0100
+I, [2015-02-06T00:48:05.939197 #10721]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-06T00:48:05.964234 #10721]  INFO -- :   Rendered resources/index.html.erb within layouts/application (15.2ms)
+I, [2015-02-06T00:48:05.965569 #10721]  INFO -- : Completed 200 OK in 26ms (Views: 17.9ms | ActiveRecord: 1.1ms)
+I, [2015-02-06T00:48:09.296911 #10721]  INFO -- : Started GET "/resources/gettemperaturenodes.json" for 129.194.69.241 at 2015-02-06 00:48:09 +0100
+I, [2015-02-06T00:48:09.298303 #10721]  INFO -- : Processing by ResourcesController#gettemperaturenodes as JSON
+I, [2015-02-06T00:48:09.417782 #10721]  INFO -- : Completed 200 OK in 119ms (Views: 0.7ms | ActiveRecord: 115.9ms)

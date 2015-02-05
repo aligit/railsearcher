@@ -1,0 +1,41 @@
+<h1>Listing resources</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Port</th>
+      <th>Protocol</th>
+      <th>Hardware</th>
+      <th>Hostname</th>
+      <th>Type</th>
+      <th>Name</th>
+      <th>Path</th>
+      <th>Ip</th>
+      <th>Node</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @resources.each do |resource| %>
+      <tr>
+        <td><%= resource.port %></td>
+        <td><%= resource.protocol %></td>
+        <td><%= resource.hardware %></td>
+        <td><%= resource.hostname %></td>
+        <td><%= resource.type_resource %></td>
+        <td><%= resource.name %></td>
+        <td><%= resource.path %></td>
+        <td><%= resource.ip %></td>
+        <td><%= resource.node_id %></td>
+        <td><%= link_to 'Show', resource %></td>
+        <td><%= link_to 'Edit', edit_resource_path(resource) %></td>
+        <td><%= link_to 'Destroy', resource, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Resource', new_resource_path %>
