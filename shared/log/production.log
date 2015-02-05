@@ -19,3 +19,11 @@ I, [2015-02-05T22:45:44.521612 #32258]  INFO -- : Started GET "/" for 185.10.224
 I, [2015-02-05T22:45:44.532544 #32258]  INFO -- : Processing by ResourcesController#index as HTML
 I, [2015-02-05T22:45:44.555918 #32258]  INFO -- :   Rendered resources/index.html.erb within layouts/application (14.5ms)
 I, [2015-02-05T22:45:44.557279 #32258]  INFO -- : Completed 200 OK in 25ms (Views: 16.2ms | ActiveRecord: 1.0ms)
+I, [2015-02-05T23:11:19.465497 #926]  INFO -- : Started GET "/" for 185.10.224.66 at 2015-02-05 23:11:19 +0100
+I, [2015-02-05T23:11:19.476224 #926]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-05T23:11:19.499323 #926]  INFO -- :   Rendered resources/index.html.erb within layouts/application (14.2ms)
+I, [2015-02-05T23:11:19.500695 #926]  INFO -- : Completed 200 OK in 24ms (Views: 16.5ms | ActiveRecord: 0.8ms)
+I, [2015-02-05T23:11:34.175822 #926]  INFO -- : Started GET "/" for 185.10.224.66 at 2015-02-05 23:11:34 +0100
+I, [2015-02-05T23:11:34.176629 #926]  INFO -- : Processing by ResourcesController#index as HTML
+I, [2015-02-05T23:11:34.180147 #926]  INFO -- :   Rendered resources/index.html.erb within layouts/application (2.5ms)
+I, [2015-02-05T23:11:34.180620 #926]  INFO -- : Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms)
